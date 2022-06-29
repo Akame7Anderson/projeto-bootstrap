@@ -6,3 +6,13 @@
   object-fit: cover;
   object-position: 0;
 }
+
+.card-largura {
+  width: 20rem;
+}
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+}
