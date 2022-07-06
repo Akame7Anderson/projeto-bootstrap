@@ -8,40 +8,26 @@
     <title>Document</title>
 
     <style>
-        body {
-            background-color: aqua;
+        .container {
+            padding: 2rem;
         }
 
-        header {
-            margin: 2vh auto;
+        div {
+            background-color: violet;
+            border: 1px solid #000;
         }
-
-        header, main, nav {
-            background-color: #fff;
-        }
-
     </style>
 </head>
 <body>
 
     <div class="container">
         <div class="row">
-                <div class="col-12">
-                    <header>
-                        Header
-                    </header>
-                </div>       
+                <div class="col col-md-3 order-sm-3">Primeiro</div>
+                <div class="col col-md-3 order-sm-1">Segundo</div>
+                <div class="col col-md-6 order-sm-2">Terceiro</div>
         </div>
 
-        <div class="row">
-            <div class="col-4 col-md-6">
-                <nav>Menu</nav> 
-            </div>
-
-            <div class="col-8 col-md-6">
-                <main>Content</main>
-            </div>
-        </div>
+        
     </div>
     
 </body>
